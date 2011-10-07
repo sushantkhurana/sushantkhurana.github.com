@@ -1,0 +1,47 @@
+body {
+	font-style: normal;
+	font-size:100%;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+#container {
+	height:231px;
+	width:432px;
+	float:right;
+	margin-top:162px;
+	margin-right:85px;
+}
+h1 {
+	font-family: AaarghNormal;
+	font-size:2.5em;
+	color:#728581;
+}
+
+h2 {
+	font-family:ColaborateLightRegular;
+	font-size:1.25em;
+	color:#90cace;
+	text-transform:uppercase;
+}
+
+#main h2 {
+	margin-bottom:75.5px;
+}
+
+.right {
+	text-align:right;
+	/*margin-right:40px;*/
+}
+
+#list li{
+	font-family:ColaborateLightRegular;
+	text-transform:uppercase;
+	font-size:1em;
+	color:#728581;
+	margin-bottom:23px;
+}
+
+#list li:hover{
+	color:#90cace;
+}
+
