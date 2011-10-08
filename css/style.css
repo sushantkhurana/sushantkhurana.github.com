@@ -1,46 +1,45 @@
 body {
 	font-style: normal;
 	font-size:100%;
-	font-family:Helvetica, Arial, sans-serif;
+	font-family:Arial, sans-serif;
 }
 
 #container {
-	height:231px;
-	width:432px;
-	float:right;
+	float:left;
 	margin-top:16px;
-	margin-right:8px;
+	margin-left:10px;
 }
 h1 {
-	font-family: AaarghNormal;
+	font-family: Arial;
 	font-size:2.5em;
-	color:#728581;
+	color:#728588;
 }
 
 h2 {
-	font-family:ColaborateLightRegular;
+	font-family:Arial;
 	font-size:1.25em;
 	color:#90cace;
-	text-transform:uppercase;
 }
 
 #main h2 {
-	margin-bottom:75.5px;
+	margin-bottom:35.5px;
 }
 
 .header {
 	text-align:left;
 }
 
-#list li{
-	font-family:ColaborateLightRegular;
+.list li{
+	font-family:Arial;
 	text-transform:uppercase;
 	font-size:1em;
 	color:#728581;
-	margin-bottom:23px;
+	margin-left:23px;
+    float:left;
 }
 
-#list li:hover{
+
+.list li:hover{
 	color:#90cace;
 }
 

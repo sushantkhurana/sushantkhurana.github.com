@@ -28,7 +28,7 @@ function position() {
 		viewportheight = document.getElementsByTagName('body')[0].clientHeight
 	}
 	// 66% of the remaining area left by container should be it's top margin.
-	var ht = 0.66*(viewportheight-document.getElementById('container').offsetHeight);
+	var ht = 0.06*(viewportheight-document.getElementById('container').offsetHeight);
 	// 10% of the remaining area left by the container should be it's right margin
 	var wh = 0.10*(viewportwidth-document.getElementById('container').offsetWidth);
 	document.getElementById('container').setAttribute("style", "margin-top:" + ht.toString() + "px;" + "margin-right:" + wh.toString() + "px");
