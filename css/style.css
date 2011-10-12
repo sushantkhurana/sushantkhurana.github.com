@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'monaco';
+    src: url('../fonts/monaco.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	font-style: normal;
 	font-size:100%;
-	font-family:Arial, sans-serif;
+	font-family:monaco, sans-serif;
 }
 
 #container {
@@ -9,16 +16,27 @@ body {
 	margin-top:16px;
 	margin-left:10px;
 }
+
+#footnote{
+    position:absolute;
+    bottom:0;
+    margin-bottom:10px;
+    background:#C8BBBE;
+    width:100%;
+}
+
+.last{
+ float:right;
+}
+
 h1 {
-	font-family: Arial;
 	font-size:2.5em;
-	color:#728588;
+	color:#817339;
 }
 
 h2 {
-	font-family:Arial;
 	font-size:1.25em;
-	color:#90cace;
+	color:#C8B560;
 }
 
 #main h2 {
@@ -30,16 +48,15 @@ h2 {
 }
 
 .list li{
-	font-family:Arial;
 	text-transform:uppercase;
 	font-size:1em;
-	color:#728581;
+	color:#817339;
 	margin-left:23px;
     float:left;
 }
 
 
 .list li:hover{
-	color:#90cace;
+	color:#C8B560;
 }
 
