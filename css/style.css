@@ -20,7 +20,7 @@ body {
 #footnote{
     position:absolute;
     bottom:0;
-    margin-bottom:10px;
+    margin-bottom:40px;
     width:100%;
 }
 
@@ -32,11 +32,14 @@ body {
 h1 {
 	font-size:2.5em;
 	color:#817339;
+    margin-left:20px;
 }
 
 h2 {
 	font-size:1.25em;
 	color:#C8B560;
+    margin-top:5px;
+    margin-left:20px;
 }
 
 #main h2 {
@@ -49,9 +52,9 @@ h2 {
 
 .list li{
 	text-transform:uppercase;
-	font-size:1em;
+	font-size:1.25em;
 	color:#817339;
-	margin-left:23px;
+	margin-left:43px;
     float:left;
 }
 
