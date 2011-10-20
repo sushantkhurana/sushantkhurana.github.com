@@ -27,6 +27,7 @@ body {
 
 .last{
  float:right;
+ margin-right:5px;
 }
 
 h1 {
