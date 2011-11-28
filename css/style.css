@@ -1,14 +1,7 @@
-@font-face {
-    font-family: 'monaco';
-    src: url('../fonts/monaco.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
 	font-style: normal;
 	font-size:100%;
-	font-family:monaco, sans-serif;
+	font-family:arial, sans-serif;
 }
 
 #container {
@@ -20,6 +13,16 @@ body {
 #footnote{
     position:absolute;
     bottom:0;
+    margin-left:20;
+    color:#3e4b2e;
+    margin-bottom:40px;
+    width:100%;
+}
+
+#contactme{
+    position:absolute;
+    top:200;
+    margin-left:40px;
     margin-bottom:40px;
     width:100%;
 }
@@ -30,7 +33,7 @@ body {
 }
 
 h1 {
-	font-size:2.5em;
+	font-size:2.8em;
 	color:#817339;
     margin-left:20px;
 }
@@ -47,7 +50,7 @@ h2 {
 }
 
 .header {
-	text-align:left;
+	text-align:center;
 }
 
 .list li{
