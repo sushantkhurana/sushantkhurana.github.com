@@ -5,7 +5,6 @@ body {
 }
 
 #container {
-	float:left;
 	margin-top:16px;
 	margin-left:10px;
 }
@@ -27,10 +26,6 @@ body {
     width:100%;
 }
 
-.last{
- float:right;
- margin-right:5px;
-}
 
 h1 {
 	font-size:2.8em;
@@ -43,6 +38,14 @@ h2 {
 	color:#C8B560;
     margin-top:5px;
     margin-left:20px;
+}
+
+p {
+    margin-right:100px;
+    margin-left:40px;
+    margin-bottom:40px;
+    margin-top:40px;
+	font-size:1.25em;
 }
 
 #main h2 {
@@ -58,7 +61,6 @@ h2 {
 	font-size:1.25em;
 	color:#817339;
 	margin-left:43px;
-    float:left;
 }
 
 
