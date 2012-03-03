@@ -1,21 +1,12 @@
 body {
 	font-style: normal;
 	font-size:100%;
-	font-family:'Exo', cursive, arial, sans-serif;
+	font-family:'Exo', arial, sans-serif;
 }
 
 #container {
 	margin-top:16px;
 	margin-left:10px;
-}
-
-#footnote{
-    position:absolute;
-    bottom:0;
-    margin-left:20;
-    color:#3e4b2e;
-    margin-bottom:40px;
-    width:100%;
 }
 
 #contactme{
