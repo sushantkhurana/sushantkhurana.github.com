@@ -17,7 +17,8 @@
             window.onload = function(){
                 $('a').unbind('click').bind('click', function(){
                     var self = this;
-                    mixpanel.track($(this).text);
+                    console.log($(this).text());
+                    mixpanel.track($(this).text());
                 });
             }
         </script>
