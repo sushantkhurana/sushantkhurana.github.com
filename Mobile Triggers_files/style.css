@@ -1,0 +1,134 @@
+.balloon, .notification { font:13px/13px "Verdana",sans-serif; }
+
+.expredit-container {
+	border-top-color: #999; background: #fff;
+	border-radius: 2px; border: 1px solid #ccc;
+	padding: 2px; width: 200px; cursor: text;
+	overflow: hidden;
+	font: 13px/13px monospace;
+}
+
+.expredit-container.input {
+/*	word-wrap: break-word; overflow-wrap: break-word; */
+	white-space: nowrap;
+	vertical-align: baseline;	
+}
+
+.expredit-container.textarea {
+	vertical-align: bottom;
+	white-space: pre; height: 100px;
+}
+
+.expredit-field {
+/*	background: #eef; */
+	box-shadow: 0 1px 0 0 #eef;
+}
+
+.operator:after, .operator:before { content: " "; font-size: 0px; }
+
+.expredit:focus {
+	outline:none;
+}
+
+.node {
+	color: #000; background: transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.operator {
+	display: inline;
+	color: #999;
+}
+.node.selected {
+	background: #eef !important;
+}
+
+.node.has_errors > .operator {
+	color: #f00;
+}
+
+.node.has_errors {
+	border-bottom: 1px solid #f00;
+	margin-bottom: -1px;
+}
+
+.name { color: #000; background: transparent; box-shadow:none; }
+.literal.expredit_number, .name.expredit_number { color: #09f;  background: transparent; box-shadow:none; }
+.literal.expredit_string, .name.expredit_string { color: #0c0;  background: transparent; box-shadow:none; }
+.literal.expredit_boolean, .name.expredit_boolean { color: #fc0;  background: transparent; box-shadow:none; }
+.literal.expredit_date, .name.expredit_date, .expredit_date { color: #0000FF;  background: transparent; box-shadow:none; }
+
+.operator.paren { /*  display:none; */ }
+
+.node.selected > .arglist { border-color: #999; }
+.node.missing>.operator { color: #f00; }
+
+.balloon {
+	position: absolute; 
+	color:#fff;
+	line-height: 1em;
+	background:#ccc;
+	box-shadow: inset 0px 1px 1px 1px rgba(0,0,0,0.2);
+	z-index: 1;
+	min-width: 200px;
+	max-width: 400px;
+
+}
+
+/* creates triangle */
+.balloon:after {
+	content:"";
+	display:block; /* reduce the damage in FF3.0 */
+	position:absolute;
+	top:-8px;
+	left:8px;
+	width:0;
+	border-width:0 8px 8px 0px;
+	border-style:solid;
+	border-color:#aaa transparent;
+}
+
+.error {
+	color: red;
+	padding: 0 8px;
+	margin: 8px 0;
+}
+
+.info {
+	color: #ccc;
+	padding: 0 8px;
+	margin: 8px 0;
+}
+
+.picker {
+	margin:0;
+	padding:0;
+}
+
+.calltips {
+	text-align: left;
+	padding:0 8px;
+	margin: 8px 0 0 0;
+	max-height: 180px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+a.calltip {
+	display: block;
+	color: #404040;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 0 -8px;
+	padding: 8px;
+	font-weight: bold;
+}
+.calltip.sel {
+	background: #444;
+	color: #fff;
+}
+
+.notification {
+	position: absolute;
+	background: #000;
+	color: #fff; padding: 8px;
+}
