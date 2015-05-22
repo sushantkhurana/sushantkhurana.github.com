@@ -1,57 +1,146 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-        <!-- start Mixpanel -->
+    <title>Sushant Khurana</title>
 
-        <script type="text/javascript">(function(d,c){var a,b,g,e;a=d.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===d.location.protocol?"https:":"http:")+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';b=d.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);c._i=[];c.init=function(a,d,f){var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";g="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config".split(" ");
-            for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}})(g[e]);c._i.push([a,d,f])};window.mixpanel=c})(document,[]);
-    mixpanel.init("9c4ac5cbc828da22b29545cbb6a686b8");</script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-        <!-- end Mixpanel -->
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-		<title>Sushant Khurana</title>
-		<link rel="icon" type="image/jpeg" href="icons/favicon.jpeg">
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/fonts/fonts-min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet" />
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
-		<script type="text/javascript" src="js/resize.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-        <script type="text/javascript">
-            window.onload = function(){
-                $('a').unbind('click').bind('click', function(){
-                    var self = this;
-                    console.log($(this).text());
-                    mixpanel.track($(this).text());
-                });
-            }
-        </script>
-	</head>
-	<body>
-		<div id="container">
-			<div id="main">
-				<a href="mailto:sushant@sukh.us" target="_blank"><h1 class="header">Sushant Khurana</h1></a>
-				<h2 class="header">Product Manager</h2>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="navbar-brand" href="http://blog.sukh.us">BLOG</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="resume.pdf">Resume</a></li>
+            <li><a href="https://github.com/sushantkhurana">Code</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h4>HELLO PEOPLE, MY NAME IS</h4>
+					<h1>SUSHANT KHURANA</h1>
+					<h4>PRODUCT MANAGER, TRAVELER, MUSICIAN</h4>
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/headerwrap -->
+
+	<section id="works"></section>
+	<div class="container">
+		<div class="row centered mt mb">
+			<h1>My Work Experience</h1>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio01.png" class="img-responsive"></a>
 			</div>
-			<div id="content" class="header">
-				<ul class="list">
-					<a href="https://github.com/sushantkhurana" target="_blank"><li class="first">Code</li></a>
-					<a href="http://blog.sukh.us" target="_blank"><li>Blog</li></a>
-					<a href="http://www.youtube.com/sushantkhurana/" target="_blank"><li>Music</li></a>
-				</ul>
-            </div>
-        </div>
-        <div id="contactme">
-            <p>Hi! I'm SUSHANT KHURANA! I write code & manage software products for start-ups. Presently I am working as a Technical Product Manager with <b><a href="http://www.expedia.com" target="_blank">Expedia</a></b>. I've played various technical and product management roles for <b><a href="http://www.capillarytech.com" target="_blank">Capillary</a></b>, <b><a href="http://www/syncapse.com" target="_blank">Syncapse</a></b>, <b><a href="http://www.siminars.com/" target="_blank">Siminars</a></b>, <b><a href="http://www.lutron.com/" target="_blank">Lutron Electronics</a></b> (RadioRA2 and Homeworkx QS Device Programming Environment) and <b><a href="http://www.truknox.com/tru-i-suite.php" target="_blank">Truknox Technologies</a></b>. I <b><a href="https://github.com/sushantkhurana" target="_blank">CODE</a></b>, I <b><a href="http://www.twitter.com/5uku5" target="_blank">TWEET</a></b>, and I <b><a href="http://blog.sukh.us" target="_blank">BLOG</a></b>. You can check out my professional profile on <b><a href="http://in.linkedin.com/in/sushantkhurana" target="_blank">LINKEDIN</a></b> and <b><a href="http://angel.co/sushant" target="_blank">ANGELIST</a></b>. Get to know me personally on <b><a href="http://www.facebook.com/sushantkhurana" target="_blank">FACEBOOK</a></b>.</p>
-            
-            
-            <p>I frequently jam on sundays with a bunch of Rock Music enthusiasts. I play the piano and the drums. You can find my videos on this <b><a href="http://www.youtube.com/sushantkhurana/" target="_blank">Youtube</a></b> channel. <b> Email me: <a href="mailto:sushant@sukh.us" target="_blank">sushant@sukh.us</a> here in case you need to get in touch.</b></p>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio02.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio03.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a>
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
 
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-2">
+					<a href="http://angel.co/sushant"><i class="fa fa-dribbble"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.facebook.com/sushantkhurana"><i class="fa fa-facebook"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.twitter.com/5uku5"><i class="fa fa-twitter"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://in.linkedin.com/in/sushantkhurana"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.instagram.com/sushantkhurana"><i class="fa fa-instagram"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://blog.sukh.us/"><i class="fa fa-tumblr"></i></a>
+				</div>
+
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/social -->
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
             <p>You can <b><a href="https://twitter.com/intent/tweet?status=check%20out%20http://www.sukh.us,%20the%20personal%20web%20page%20of%20@5uku5" target="_blank">TWEET</a></b> about this profile page or share it on <b><a target='_blank' href="http://www.facebook.com/sharer.php?u=www.sukh.us">FACEBOOK</a></b></p>
-            <a href="https://mixpanel.com/f/partner"><img src="https://mixpanel.com/site_media/images/partner/badge_blue.png" alt="Mobile and Web Analytics" /></a>
-        </div>
-    </body>
-</html>
+				</div>
 
+				<div class="col-lg-4">
+					<p>NEW DELHI, INDIA.</p>
+				</div>
+				<div class="col-lg-4">
+					<p>sushant@sukh.us</p>
+				</div>
+			</div>
+		</div>
+	</div><! --/footerwrap -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
