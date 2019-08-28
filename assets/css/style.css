@@ -15,6 +15,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+@font-face: {font-family:BLACK; src:url(black.ttf);}
 
 ::-moz-selection {
     background: #f2c2c9;
@@ -70,6 +71,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
+	font-family: BLACK;
 }
 
 
@@ -130,10 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 	font-size: 70px;
 	font-weight: bold;
+	font-family: BLACK;
 }
 
 #headerwrap h4 {
-	font-weight: 400;
+	font-weight: bold;
 	color: #ffffff
 }
 
@@ -224,7 +227,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+ margin-top: 30px;
+ border: 1px solid #ddd;
+ border-radius: 2px;
+ padding: 4px;
 }
 
 .gallery img:hover {
